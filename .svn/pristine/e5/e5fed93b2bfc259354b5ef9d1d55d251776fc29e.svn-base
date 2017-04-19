@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="77" height="76" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.Button"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="up"/>
+		<e:State name="down"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Button id="wordBtn" skinName="@ButtonSkin('0001_btn_off_07','0001_btn_on_07')" horizontalCenter="0" verticalCenter="0"/>
+	<e:Group id="wordLabelGroup" fontFamily="微软雅黑" horizontalCenter="0" verticalCenter="0">
+	<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" gap="0" verticalAlign="middle"/>
+	</e:layout>
+		<e:Label id="wordLabel" paddingLeft="0" paddingRight="0" paddingTop="0" paddingBottom="0" fontFamily="微软雅黑" textColor="0x111111" textColor.down="0x222222" textColor.disabled="0xcccccc" verticalAlign="middle" textAlign="center" size="50" y="4"/>
+	</e:Group>
+</e:Skin>

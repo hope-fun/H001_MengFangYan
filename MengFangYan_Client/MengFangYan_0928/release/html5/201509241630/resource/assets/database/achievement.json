@@ -1,0 +1,650 @@
+[
+  {
+    "id": 1,
+    "name": "初识上海话",
+    "description": "完成上海话1个关卡",
+    "orderNum": 1,
+    "level": 1,
+    "requireType": "AREQ11",
+    "requireValue": 1
+  },
+  {
+    "id": 2,
+    "name": "略懂上海话",
+    "description": "完成上海话2个关卡",
+    "orderNum": 2,
+    "level": 2,
+    "requireType": "AREQ11",
+    "requireValue": 2
+  },
+  {
+    "id": 3,
+    "name": "精通上海话",
+    "description": "完成上海话3个关卡",
+    "orderNum": 3,
+    "level": 3,
+    "requireType": "AREQ11",
+    "requireValue": 3
+  },
+  {
+    "id": 4,
+    "name": "无司上海宁!",
+    "description": "完成上海话4个关卡",
+    "orderNum": 4,
+    "level": 4,
+    "requireType": "AREQ11",
+    "requireValue": 4
+  },
+  {
+    "id": 5,
+    "name": "初识四川话",
+    "description": "完成4川话1个关卡",
+    "orderNum": 5,
+    "level": 1,
+    "requireType": "AREQ12",
+    "requireValue": 1
+  },
+  {
+    "id": 6,
+    "name": "略懂四川话",
+    "description": "完成4川话2个关卡",
+    "orderNum": 6,
+    "level": 2,
+    "requireType": "AREQ12",
+    "requireValue": 2
+  },
+  {
+    "id": 7,
+    "name": "精通四川话",
+    "description": "完成4川话3个关卡",
+    "orderNum": 7,
+    "level": 3,
+    "requireType": "AREQ12",
+    "requireValue": 3
+  },
+  {
+    "id": 8,
+    "name": "神戳戳~",
+    "description": "完成4川话4个关卡",
+    "orderNum": 8,
+    "level": 4,
+    "requireType": "AREQ12",
+    "requireValue": 4
+  },
+  {
+    "id": 9,
+    "name": "初识东北话",
+    "description": "完成东北话1个关卡",
+    "orderNum": 9,
+    "level": 1,
+    "requireType": "AREQ13",
+    "requireValue": 1
+  },
+  {
+    "id": 10,
+    "name": "略懂东北话",
+    "description": "完成东北话2个关卡",
+    "orderNum": 10,
+    "level": 2,
+    "requireType": "AREQ13",
+    "requireValue": 2
+  },
+  {
+    "id": 11,
+    "name": "精通东北话",
+    "description": "完成东北话3个关卡",
+    "orderNum": 11,
+    "level": 3,
+    "requireType": "AREQ13",
+    "requireValue": 3
+  },
+  {
+    "id": 12,
+    "name": "老厉害了~",
+    "description": "完成东北话4个关卡",
+    "orderNum": 12,
+    "level": 4,
+    "requireType": "AREQ13",
+    "requireValue": 4
+  },
+  {
+    "id": 13,
+    "name": "初识山东话",
+    "description": "完成山东话1个关卡",
+    "orderNum": 13,
+    "level": 1,
+    "requireType": "AREQ14",
+    "requireValue": 1
+  },
+  {
+    "id": 14,
+    "name": "略懂山东话",
+    "description": "完成山东话2个关卡",
+    "orderNum": 14,
+    "level": 2,
+    "requireType": "AREQ14",
+    "requireValue": 2
+  },
+  {
+    "id": 15,
+    "name": "精通山东话",
+    "description": "完成山东话3个关卡",
+    "orderNum": 15,
+    "level": 3,
+    "requireType": "AREQ14",
+    "requireValue": 3
+  },
+  {
+    "id": 16,
+    "name": "嫩就作吧~",
+    "description": "完成山东话4个关卡",
+    "orderNum": 16,
+    "level": 4,
+    "requireType": "AREQ14",
+    "requireValue": 4
+  },
+  {
+    "id": 17,
+    "name": "初识台湾话",
+    "description": "完成台湾话1个关卡",
+    "orderNum": 17,
+    "level": 1,
+    "requireType": "AREQ15",
+    "requireValue": 1
+  },
+  {
+    "id": 18,
+    "name": "略懂台湾话",
+    "description": "完成台湾话2个关卡",
+    "orderNum": 18,
+    "level": 2,
+    "requireType": "AREQ15",
+    "requireValue": 2
+  },
+  {
+    "id": 19,
+    "name": "精通台湾话",
+    "description": "完成台湾话3个关卡",
+    "orderNum": 19,
+    "level": 3,
+    "requireType": "AREQ15",
+    "requireValue": 3
+  },
+  {
+    "id": 20,
+    "name": "哇西代万朗~",
+    "description": "完成台湾话4个关卡",
+    "orderNum": 20,
+    "level": 4,
+    "requireType": "AREQ15",
+    "requireValue": 4
+  },
+  {
+    "id": 21,
+    "name": "方言小生",
+    "description": "总共完成5个关卡",
+    "orderNum": 21,
+    "level": 1,
+    "requireType": "AREQ16",
+    "requireValue": 5
+  },
+  {
+    "id": 22,
+    "name": "方言达人",
+    "description": "总共完成10个关卡",
+    "orderNum": 22,
+    "level": 2,
+    "requireType": "AREQ16",
+    "requireValue": 10
+  },
+  {
+    "id": 23,
+    "name": "玩转方言",
+    "description": "总共完成15个关卡",
+    "orderNum": 23,
+    "level": 3,
+    "requireType": "AREQ16",
+    "requireValue": 15
+  },
+  {
+    "id": 24,
+    "name": "方言什么的好简单",
+    "description": "总共完成20个关卡",
+    "orderNum": 24,
+    "level": 4,
+    "requireType": "AREQ16",
+    "requireValue": 20
+  },
+  {
+    "id": 25,
+    "name": "懵懵懂懂",
+    "description": "完成答题5条",
+    "orderNum": 25,
+    "level": 1,
+    "requireType": "AREQ1",
+    "requireValue": 5
+  },
+  {
+    "id": 26,
+    "name": "略知一二",
+    "description": "完成答题10条",
+    "orderNum": 26,
+    "level": 2,
+    "requireType": "AREQ1",
+    "requireValue": 10
+  },
+  {
+    "id": 27,
+    "name": "见多识广",
+    "description": "完成答题50条",
+    "orderNum": 27,
+    "level": 3,
+    "requireType": "AREQ1",
+    "requireValue": 50
+  },
+  {
+    "id": 28,
+    "name": "才气过人",
+    "description": "完成答题100条",
+    "orderNum": 28,
+    "level": 4,
+    "requireType": "AREQ1",
+    "requireValue": 100
+  },
+  {
+    "id": 29,
+    "name": "才高八斗",
+    "description": "完成答题200条",
+    "orderNum": 29,
+    "level": 5,
+    "requireType": "AREQ1",
+    "requireValue": 200
+  },
+  {
+    "id": 30,
+    "name": "再来点高难度的!",
+    "description": "完成答题300条",
+    "orderNum": 30,
+    "level": 6,
+    "requireType": "AREQ1",
+    "requireValue": 300
+  },
+  {
+    "id": 31,
+    "name": "真才实学",
+    "description": "不借助道具成功答题10条",
+    "orderNum": 31,
+    "level": 1,
+    "requireType": "AREQ2",
+    "requireValue": 10
+  },
+  {
+    "id": 32,
+    "name": "博学多才",
+    "description": "不借助道具成功答题50条",
+    "orderNum": 32,
+    "level": 2,
+    "requireType": "AREQ2",
+    "requireValue": 50
+  },
+  {
+    "id": 33,
+    "name": "学富五车",
+    "description": "不借助道具成功答题100条",
+    "orderNum": 33,
+    "level": 3,
+    "requireType": "AREQ2",
+    "requireValue": 100
+  },
+  {
+    "id": 34,
+    "name": "牛刀小试",
+    "description": "使用金币开启问题包1个",
+    "orderNum": 34,
+    "level": 1,
+    "requireType": "AREQ5",
+    "requireValue": 1
+  },
+  {
+    "id": 35,
+    "name": "如饥似渴",
+    "description": "使用金币开启问题包5个",
+    "orderNum": 35,
+    "level": 2,
+    "requireType": "AREQ5",
+    "requireValue": 5
+  },
+  {
+    "id": 36,
+    "name": "势如破竹",
+    "description": "使用金币开启问题包10个",
+    "orderNum": 36,
+    "level": 3,
+    "requireType": "AREQ5",
+    "requireValue": 10
+  },
+  {
+    "id": 37,
+    "name": "吃穿不愁",
+    "description": "累计获得200金币",
+    "orderNum": 37,
+    "level": 1,
+    "requireType": "AREQ6",
+    "requireValue": 200
+  },
+  {
+    "id": 38,
+    "name": "小资情调",
+    "description": "累计获得500金币",
+    "orderNum": 38,
+    "level": 2,
+    "requireType": "AREQ6",
+    "requireValue": 500
+  },
+  {
+    "id": 39,
+    "name": "中产阶级",
+    "description": "累计获得1000金币",
+    "orderNum": 39,
+    "level": 3,
+    "requireType": "AREQ6",
+    "requireValue": 1000
+  },
+  {
+    "id": 40,
+    "name": "富甲一方",
+    "description": "累计获得1500金币",
+    "orderNum": 40,
+    "level": 4,
+    "requireType": "AREQ6",
+    "requireValue": 1500
+  },
+  {
+    "id": 41,
+    "name": "土豪我们做朋友",
+    "description": "累计获得2000金币",
+    "orderNum": 41,
+    "level": 5,
+    "requireType": "AREQ6",
+    "requireValue": 2000
+  },
+  {
+    "id": 42,
+    "name": "灵机一动",
+    "description": "使用道具5次",
+    "orderNum": 42,
+    "level": 1,
+    "requireType": "AREQ7",
+    "requireValue": 5
+  },
+  {
+    "id": 43,
+    "name": "足智多谋",
+    "description": "使用道具10次",
+    "orderNum": 43,
+    "level": 2,
+    "requireType": "AREQ7",
+    "requireValue": 10
+  },
+  {
+    "id": 44,
+    "name": "举无遗策",
+    "description": "使用道具25次",
+    "orderNum": 44,
+    "level": 3,
+    "requireType": "AREQ7",
+    "requireValue": 25
+  },
+  {
+    "id": 45,
+    "name": "老谋深算",
+    "description": "使用道具50次",
+    "orderNum": 45,
+    "level": 4,
+    "requireType": "AREQ7",
+    "requireValue": 50
+  },
+  {
+    "id": 46,
+    "name": "道具流你懂吗?",
+    "description": "使用道具100次",
+    "orderNum": 46,
+    "level": 5,
+    "requireType": "AREQ7",
+    "requireValue": 100
+  },
+  {
+    "id": 47,
+    "name": "眉头一皱",
+    "description": "分享游戏问题给好友1次",
+    "orderNum": 47,
+    "level": 1,
+    "requireType": "AREQ8",
+    "requireValue": 1
+  },
+  {
+    "id": 48,
+    "name": "计上心来",
+    "description": "分享游戏问题给好友3次",
+    "orderNum": 48,
+    "level": 2,
+    "requireType": "AREQ8",
+    "requireValue": 3
+  },
+  {
+    "id": 49,
+    "name": "急中生智",
+    "description": "分享游戏问题给好友5次",
+    "orderNum": 49,
+    "level": 3,
+    "requireType": "AREQ8",
+    "requireValue": 5
+  },
+  {
+    "id": 50,
+    "name": "快来帮帮我!",
+    "description": "分享游戏问题给好友10次",
+    "orderNum": 50,
+    "level": 4,
+    "requireType": "AREQ8",
+    "requireValue": 10
+  },
+  {
+    "id": 51,
+    "name": "谈天说地",
+    "description": "分享游戏给好友1次",
+    "orderNum": 51,
+    "level": 1,
+    "requireType": "AREQ9",
+    "requireValue": 1
+  },
+  {
+    "id": 52,
+    "name": "同舟共济",
+    "description": "分享游戏给好友3次",
+    "orderNum": 52,
+    "level": 2,
+    "requireType": "AREQ9",
+    "requireValue": 3
+  },
+  {
+    "id": 53,
+    "name": "齐心协力",
+    "description": "分享游戏给好友5次",
+    "orderNum": 53,
+    "level": 3,
+    "requireType": "AREQ9",
+    "requireValue": 5
+  },
+  {
+    "id": 54,
+    "name": "我的好友遍天下",
+    "description": "分享游戏给好友10次",
+    "orderNum": 54,
+    "level": 4,
+    "requireType": "AREQ9",
+    "requireValue": 10
+  },
+  {
+    "id": 55,
+    "name": "初识广东话",
+    "description": "完成广东话1个关卡",
+    "orderNum": 55,
+    "level": 1,
+    "requireType": null,
+    "requireValue": 1
+  },
+  {
+    "id": 56,
+    "name": "略懂广东话",
+    "description": "完成广东话2个关卡",
+    "orderNum": 56,
+    "level": 2,
+    "requireType": null,
+    "requireValue": 2
+  },
+  {
+    "id": 57,
+    "name": "精通广东话",
+    "description": "完成广东话3个关卡",
+    "orderNum": 57,
+    "level": 3,
+    "requireType": null,
+    "requireValue": 3
+  },
+  {
+    "id": 58,
+    "name": "初识河南话",
+    "description": "完成河南话1个关卡",
+    "orderNum": 58,
+    "level": 1,
+    "requireType": null,
+    "requireValue": 1
+  },
+  {
+    "id": 59,
+    "name": "略懂河南话",
+    "description": "完成河南话2个关卡",
+    "orderNum": 59,
+    "level": 2,
+    "requireType": null,
+    "requireValue": 2
+  },
+  {
+    "id": 60,
+    "name": "精通河南话",
+    "description": "完成河南话3个关卡",
+    "orderNum": 60,
+    "level": 3,
+    "requireType": null,
+    "requireValue": 3
+  },
+  {
+    "id": 61,
+    "name": "生存新手",
+    "description": "在生存模式中成功完成1题",
+    "orderNum": 61,
+    "level": 1,
+    "requireType": null,
+    "requireValue": 1
+  },
+  {
+    "id": 62,
+    "name": "生存熟手",
+    "description": "在生存模式中连续完成5题",
+    "orderNum": 62,
+    "level": 2,
+    "requireType": null,
+    "requireValue": 5
+  },
+  {
+    "id": 63,
+    "name": "生存老手",
+    "description": "在生存模式中连续完成10题",
+    "orderNum": 63,
+    "level": 3,
+    "requireType": null,
+    "requireValue": 10
+  },
+  {
+    "id": 64,
+    "name": "生存高手",
+    "description": "在生存模式中连续完成20题",
+    "orderNum": 64,
+    "level": 4,
+    "requireType": null,
+    "requireValue": 20
+  },
+  {
+    "id": 65,
+    "name": "生存大师",
+    "description": "在生存模式中连续完成50题",
+    "orderNum": 65,
+    "level": 5,
+    "requireType": null,
+    "requireValue": 50
+  },
+  {
+    "id": 66,
+    "name": "生存大神",
+    "description": "在生存模式中连续完成100题",
+    "orderNum": 66,
+    "level": 6,
+    "requireType": null,
+    "requireValue": 100
+  },
+  {
+    "id": 67,
+    "name": "初来乍到",
+    "description": "在生存模式中获得10000分",
+    "orderNum": 67,
+    "level": 1,
+    "requireType": null,
+    "requireValue": 10000
+  },
+  {
+    "id": 68,
+    "name": "步步高升",
+    "description": "在生存模式中获得50000分",
+    "orderNum": 68,
+    "level": 2,
+    "requireType": null,
+    "requireValue": 50000
+  },
+  {
+    "id": 69,
+    "name": "精益求精",
+    "description": "在生存模式中获得100000分",
+    "orderNum": 69,
+    "level": 3,
+    "requireType": null,
+    "requireValue": 100000
+  },
+  {
+    "id": 70,
+    "name": "来者不拒",
+    "description": "在生存模式中获得500000分",
+    "orderNum": 70,
+    "level": 4,
+    "requireType": null,
+    "requireValue": 500000
+  },
+  {
+    "id": 71,
+    "name": "百万巨鳄",
+    "description": "在生存模式中获得1000000分",
+    "orderNum": 71,
+    "level": 5,
+    "requireType": null,
+    "requireValue": 1000000
+  },
+  {
+    "id": 72,
+    "name": "超级巨星",
+    "description": "在生存模式中获得2000000分",
+    "orderNum": 72,
+    "level": 6,
+    "requireType": null,
+    "requireValue": 2000000
+  }
+]

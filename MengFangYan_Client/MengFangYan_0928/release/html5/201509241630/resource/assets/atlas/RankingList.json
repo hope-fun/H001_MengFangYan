@@ -1,0 +1,9 @@
+{"file":"paming.png","frames":{
+"panghangbang":{"x":1,"y":229,"w":179,"h":59,"offX":0,"offY":0,"sourceW":179,"sourceH":59},
+"Silver":{"x":452,"y":1,"w":50,"h":50,"offX":0,"offY":0,"sourceW":50,"sourceH":50},
+"bg_green01":{"x":1,"y":1,"w":449,"h":55,"offX":0,"offY":0,"sourceW":449,"sourceH":55},
+"bg_green02":{"x":1,"y":58,"w":449,"h":55,"offX":0,"offY":0,"sourceW":449,"sourceH":55},
+"bg_orange01":{"x":1,"y":115,"w":449,"h":55,"offX":0,"offY":0,"sourceW":449,"sourceH":55},
+"bg_orange02":{"x":1,"y":172,"w":449,"h":55,"offX":0,"offY":0,"sourceW":449,"sourceH":55},
+"Copper":{"x":452,"y":53,"w":50,"h":50,"offX":0,"offY":0,"sourceW":50,"sourceH":50},
+"Gold":{"x":452,"y":105,"w":50,"h":50,"offX":0,"offY":0,"sourceW":50,"sourceH":50}}}

@@ -1,0 +1,13 @@
+{"file":"RegisterAndShareAndRewards.png","frames":{
+"btn_off_02":{"x":272,"y":1,"w":128,"h":125,"offX":0,"offY":0,"sourceW":128,"sourceH":125},
+"btn_on_02":{"x":391,"y":255,"w":110,"h":107,"offX":0,"offY":0,"sourceW":110,"sourceH":107},
+"_0003_btn_on_01":{"x":402,"y":1,"w":109,"h":106,"offX":0,"offY":0,"sourceW":109,"sourceH":106},
+"_0000_bj_02":{"x":1,"y":1,"w":269,"h":126,"offX":0,"offY":0,"sourceW":269,"sourceH":126},
+"_0001_btn_off_02":{"x":272,"y":128,"w":128,"h":125,"offX":0,"offY":0,"sourceW":128,"sourceH":125},
+"_0001_btn_on_02":{"x":391,"y":364,"w":109,"h":106,"offX":0,"offY":0,"sourceW":109,"sourceH":106},
+"_0002_btn_off_02":{"x":1,"y":129,"w":128,"h":125,"offX":0,"offY":0,"sourceW":128,"sourceH":125},
+"_0002_btn_on_02":{"x":402,"y":109,"w":109,"h":106,"offX":0,"offY":0,"sourceW":109,"sourceH":106},
+"_0003_btn_off_01":{"x":131,"y":129,"w":128,"h":125,"offX":0,"offY":0,"sourceW":128,"sourceH":125},
+"bg_huang":{"x":261,"y":255,"w":128,"h":125,"offX":0,"offY":0,"sourceW":128,"sourceH":125},
+"bg_lan":{"x":1,"y":256,"w":128,"h":125,"offX":0,"offY":0,"sourceW":128,"sourceH":125},
+"yilingqu":{"x":131,"y":256,"w":53,"h":55,"offX":0,"offY":0,"sourceW":53,"sourceH":55}}}

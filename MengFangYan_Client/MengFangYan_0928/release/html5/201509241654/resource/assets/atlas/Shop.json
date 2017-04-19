@@ -1,0 +1,10 @@
+{"file":"Shop.png","frames":{
+"_0000_btn_off_05":{"x":1,"y":1,"w":206,"h":295,"offX":0,"offY":0,"sourceW":206,"sourceH":295},
+"_0000_btn_on_05":{"x":209,"y":298,"w":175,"h":251,"offX":0,"offY":0,"sourceW":175,"sourceH":252},
+"_0001_btn_off_04":{"x":1,"y":298,"w":206,"h":295,"offX":0,"offY":0,"sourceW":206,"sourceH":295},
+"_0001_btn_on_04":{"x":386,"y":298,"w":175,"h":251,"offX":0,"offY":0,"sourceW":175,"sourceH":252},
+"_0002_btn_off_03":{"x":1,"y":595,"w":206,"h":295,"offX":0,"offY":0,"sourceW":206,"sourceH":295},
+"_0002_btn_on_02":{"x":417,"y":1,"w":174,"h":252,"offX":1,"offY":0,"sourceW":175,"sourceH":252},
+"_0002_btn_on_03":{"x":209,"y":551,"w":175,"h":251,"offX":0,"offY":0,"sourceW":175,"sourceH":252},
+"_0003_btn_off_02":{"x":209,"y":1,"w":206,"h":295,"offX":0,"offY":0,"sourceW":206,"sourceH":295},
+"word_01":{"x":1,"y":892,"w":117,"h":59,"offX":0,"offY":0,"sourceW":117,"sourceH":59}}}

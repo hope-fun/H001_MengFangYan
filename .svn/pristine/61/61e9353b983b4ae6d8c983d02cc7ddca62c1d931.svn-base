@@ -1,0 +1,209 @@
+[
+  {
+    "id": 1,
+    "cityId": 0,
+    "name": "教学篇",
+    "orderNum": 1,
+    "price": 0,
+    "questionCount": 5,
+    "description": "教学篇"
+  },
+  {
+    "id": 2,
+    "cityId": 3,
+    "name": "第一篇",
+    "orderNum": 2,
+    "price": 250,
+    "questionCount": 20,
+    "description": "第一篇"
+  },
+  {
+    "id": 3,
+    "cityId": 3,
+    "name": "第二篇",
+    "orderNum": 3,
+    "price": 350,
+    "questionCount": 20,
+    "description": "第二篇"
+  },
+  {
+    "id": 4,
+    "cityId": 3,
+    "name": "第三篇",
+    "orderNum": 4,
+    "price": 500,
+    "questionCount": 20,
+    "description": "第三篇"
+  },
+  {
+    "id": 5,
+    "cityId": 5,
+    "name": "第一篇",
+    "orderNum": 5,
+    "price": 250,
+    "questionCount": 20,
+    "description": "第一篇"
+  },
+  {
+    "id": 6,
+    "cityId": 5,
+    "name": "第二篇",
+    "orderNum": 6,
+    "price": 350,
+    "questionCount": 20,
+    "description": "第二篇"
+  },
+  {
+    "id": 7,
+    "cityId": 5,
+    "name": "第三篇",
+    "orderNum": 7,
+    "price": 500,
+    "questionCount": 20,
+    "description": "第三篇"
+  },
+  {
+    "id": 8,
+    "cityId": 4,
+    "name": "第一篇",
+    "orderNum": 8,
+    "price": 250,
+    "questionCount": 20,
+    "description": "第一篇"
+  },
+  {
+    "id": 9,
+    "cityId": 4,
+    "name": "第二篇",
+    "orderNum": 9,
+    "price": 350,
+    "questionCount": 20,
+    "description": "第二篇"
+  },
+  {
+    "id": 10,
+    "cityId": 4,
+    "name": "第三篇",
+    "orderNum": 10,
+    "price": 500,
+    "questionCount": 20,
+    "description": "第三篇"
+  },
+  {
+    "id": 11,
+    "cityId": 1,
+    "name": "第一篇",
+    "orderNum": 11,
+    "price": 250,
+    "questionCount": 20,
+    "description": "第一篇"
+  },
+  {
+    "id": 12,
+    "cityId": 1,
+    "name": "第二篇",
+    "orderNum": 12,
+    "price": 350,
+    "questionCount": 20,
+    "description": "第二篇"
+  },
+  {
+    "id": 13,
+    "cityId": 1,
+    "name": "第三篇",
+    "orderNum": 13,
+    "price": 500,
+    "questionCount": 20,
+    "description": "第三篇"
+  },
+  {
+    "id": 14,
+    "cityId": 2,
+    "name": "第一篇",
+    "orderNum": 14,
+    "price": 250,
+    "questionCount": 20,
+    "description": "第一篇"
+  },
+  {
+    "id": 15,
+    "cityId": 2,
+    "name": "第二篇",
+    "orderNum": 15,
+    "price": 350,
+    "questionCount": 20,
+    "description": "第二篇"
+  },
+  {
+    "id": 16,
+    "cityId": 2,
+    "name": "第三篇",
+    "orderNum": 16,
+    "price": 500,
+    "questionCount": 20,
+    "description": "第三篇"
+  },
+  {
+    "id": 17,
+    "cityId": -1,
+    "name": "生存模式",
+    "orderNum": -1,
+    "price": 0,
+    "questionCount": 100,
+    "description": "生存模式"
+  },
+  {
+    "id": 18,
+    "cityId": 6,
+    "name": "第一篇",
+    "orderNum": 18,
+    "price": 250,
+    "questionCount": 20,
+    "description": "第一篇"
+  },
+  {
+    "id": 19,
+    "cityId": 6,
+    "name": "第二篇",
+    "orderNum": 19,
+    "price": 350,
+    "questionCount": 20,
+    "description": "第二篇"
+  },
+  {
+    "id": 20,
+    "cityId": 6,
+    "name": "第三篇",
+    "orderNum": 20,
+    "price": 500,
+    "questionCount": 20,
+    "description": "第三篇"
+  },
+  {
+    "id": 21,
+    "cityId": 7,
+    "name": "第一篇",
+    "orderNum": 21,
+    "price": 250,
+    "questionCount": 20,
+    "description": "第一篇"
+  },
+  {
+    "id": 22,
+    "cityId": 7,
+    "name": "第二篇",
+    "orderNum": 22,
+    "price": 350,
+    "questionCount": 20,
+    "description": "第二篇"
+  },
+  {
+    "id": 23,
+    "cityId": 7,
+    "name": "第三篇",
+    "orderNum": 23,
+    "price": 500,
+    "questionCount": 20,
+    "description": "第三篇"
+  }
+]

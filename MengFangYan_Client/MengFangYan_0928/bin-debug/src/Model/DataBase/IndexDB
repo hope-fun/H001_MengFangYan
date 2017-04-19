@@ -1,0 +1,46 @@
+/**
+ *
+ * @author 
+ *
+ */
+class IndexDB {
+	
+    public db: IDBDatabase;
+    
+    public dbName: string;
+    
+    public dbVersion: number;
+    
+    private taskQuestionTable: string = "taskQuestion";
+    
+    public constructor() {
+        
+    }
+    
+    /*
+     * 创建数据库.
+     */ 
+    public create(_dbName: string,_dbVersion: number): void { 
+        this.dbName = _dbName;
+        this.dbVersion = _dbVersion;
+        
+        //先删除
+        indexedDB.deleteDatabase(_dbName);
+        var _this = this;
+        setTimeout(function() { 
+            _this.realCreate();
+            },1000);
+    }
+    
+    public realCreate(): void { 
+        var request = indexedDB.open(this.dbName,this.dbVersion);
+        var _this = this;
+        request.onupgradeneeded = function(e) { 
+            console.log("zhujun: 000001");
+            _this.db = request.result;
+            //初始化创建数据库
+        }
+        
+        
+    }
+}

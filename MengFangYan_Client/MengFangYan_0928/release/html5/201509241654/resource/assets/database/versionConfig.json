@@ -1,0 +1,10 @@
+{
+    "versionNumber": 1,
+    "baseUrl": "resource/assets/database/",
+    "dbName":"MFYDB",
+    "achievementNameTable":"achievement",
+    "achievemnetRewardTable":"achievementReward",
+    "taskTable":"task",
+    "taskQuestionTable":"taskQuestion",
+    "taskRewardTable":"taskReward"
+}

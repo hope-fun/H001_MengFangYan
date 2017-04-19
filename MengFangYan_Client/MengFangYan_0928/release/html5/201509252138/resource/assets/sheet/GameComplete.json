@@ -1,0 +1,9 @@
+{"file":"GameComplete.png","frames":{
+"word_03":{"x":229,"y":189,"w":202,"h":28,"offX":1,"offY":0,"sourceW":204,"sourceH":29},
+"amazing":{"x":1,"y":1,"w":458,"h":141,"offX":0,"offY":0,"sourceW":459,"sourceH":142},
+"icon_+":{"x":419,"y":144,"w":27,"h":28,"offX":1,"offY":3,"sourceW":31,"sourceH":35},
+"icon_5":{"x":392,"y":144,"w":25,"h":33,"offX":0,"offY":0,"sourceW":26,"sourceH":34},
+"icon_250":{"x":310,"y":144,"w":80,"h":34,"offX":0,"offY":0,"sourceW":80,"sourceH":35},
+"light":{"x":433,"y":174,"w":16,"h":32,"offX":0,"offY":0,"sourceW":32,"sourceH":32},
+"word_01":{"x":1,"y":144,"w":307,"h":43,"offX":0,"offY":0,"sourceW":308,"sourceH":45},
+"word_02":{"x":1,"y":189,"w":226,"h":50,"offX":1,"offY":1,"sourceW":235,"sourceH":54}}}

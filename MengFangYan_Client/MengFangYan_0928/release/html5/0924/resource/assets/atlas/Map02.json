@@ -1,0 +1,8 @@
+{"file":"Map02.png","frames":{
+"keng3":{"x":1,"y":1,"w":470,"h":256,"offX":0,"offY":0,"sourceW":470,"sourceH":256},
+"hole_01":{"x":1,"y":445,"w":480,"h":192,"offX":12,"offY":8,"sourceW":507,"sourceH":221},
+"hole_02":{"x":483,"y":445,"w":480,"h":192,"offX":12,"offY":8,"sourceW":507,"sourceH":221},
+"hole_03":{"x":473,"y":1,"w":505,"h":220,"offX":1,"offY":0,"sourceW":507,"sourceH":221},
+"hole_04":{"x":473,"y":223,"w":505,"h":220,"offX":0,"offY":0,"sourceW":507,"sourceH":221},
+"hole_05":{"x":1,"y":833,"w":488,"h":66,"offX":10,"offY":70,"sourceW":507,"sourceH":221},
+"keng2":{"x":1,"y":639,"w":480,"h":192,"offX":0,"offY":0,"sourceW":480,"sourceH":192}}}

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:Group horizontalCenter="0" verticalCenter="0" left="0" top="0" width="640" height="1136">
+		<e:UIAsset width="2048" height="2048" alpha="0.7" x="-686" y="-457" source="black_png"/>
+		<e:UIAsset source="bj_01" verticalCenter="0" horizontalCenter="0"/>
+		<e:UIAsset source="amazing" horizontalCenter="0.5" verticalCenter="-161"/>
+		<e:UIAsset source="word_01" horizontalCenter="0" verticalCenter="-32.5"/>
+		<e:UIAsset source="icon_5" horizontalCenter="40" verticalCenter="1" visible="false"/>
+		<e:UIAsset source="icon_+" horizontalCenter="0.5" verticalCenter="1.5" visible="false"/>
+		<e:UIAsset source="0003_icon_02" horizontalCenter="-62.5" verticalCenter="2.5" visible="false"/>
+		<e:Button id="btnSure" label="确定" fontFamily="黑体" size="40" width="195" height="77" skinName="@ButtonSkin('btn_off_03','btn_on_03')" x="218" y="603"/>
+	</e:Group>
+</e:Skin>

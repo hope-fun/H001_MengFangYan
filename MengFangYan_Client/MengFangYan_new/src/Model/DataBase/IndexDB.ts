@@ -1,0 +1,406 @@
+/**
+ *
+ * @author
+ *
+ */
+module Model {
+    export class IndexDB {
+        public static subject1: string = "这是《大话西游》中哪个演员说的？";
+        public static subject2: string = "《天下无贼》中的黎叔是谁扮演的？";
+        public static subject3: string = "这句台词出自张柏芝出演的哪部电影？";
+        public static subject4: string = "这是《失恋三十三天》中哪个演员说的？";
+        public static subject5: string = "这句台词出自周星驰出演的哪部电影？";
+                
+        public static answerPool1: string[] = ["驰","华","发","罗","家","芬","周","少","莫","英","章","德","茵","星","蔚","刘","聪","孟","达","蔡","文","润","朱","吴"];
+        public static answerPool2: string[] = ["朝","姜","刚","范","渤","黄","冯","发","舒","宝","小","淇","华","润","刘","葛","周","王","强","梁","德","文","优","伟"];
+        public static answerPool3: string[] = ["女","星","合","星","我","狮","野","吼","蛮","囍","愿","西","手","的","最","事","约","友","语","河","强","分","东","江"];
+        public static answerPool4: string[] = ["淇","德","明","晓","菲","优","舒","葛","伟","周","文","发","合","润","白","百","朝","梁","亦","刘","黄","渤","章","华"];
+        public static answerPool5: string[] = ["狐","浒","江","记","水","湖","鼎","飞","血","鸯","神","传","傲","刀","笑","雪","鸳","剑","碧","龙","天","山","教","鹿"];
+                
+        public static answer1: string = "周星驰";
+        public static answer2: string = "葛优";
+        public static answer3: string = "河东狮吼";
+        public static answer4: string = "文章";
+        public static answer5: string = "鹿鼎记";
+        
+        
+        public constructor() {
+            this.getResVersionInfo();
+        }
+
+        //下载器.
+        private downloader(_url: string,_onCallBack ?:Function) { 
+            var loader:egret.URLLoader = new egret.URLLoader();
+            var request:egret.URLRequest = new egret.URLRequest(_url);
+            loader.addEventListener(egret.Event.COMPLETE,() => {
+                if(_onCallBack != null){
+                    _onCallBack(loader);
+                }
+            },this);
+            loader.load(request);
+        }
+        
+                
+        
+        //获取资源信息.
+        private getResVersionInfo() {
+            var _this = this;
+            this.downloader("resource/assets/database/versionConfig.json",(loader) => { 
+//                var vCM:VersionConfigModel = JSON.parse(loader.data);
+//                alert("zhujun: get res version info ! " + JSON.stringify(vCM));        
+                
+            });
+            
+//            var url:string = "resource/assets/database/versionConfig.json";
+//            var loader:egret.URLLoader = new egret.URLLoader();
+//            var request:egret.URLRequest = new egret.URLRequest(url);
+//            var _this = this;
+//            loader.addEventListener(egret.Event.COMPLETE, () => {
+//                var vCM:VersionConfigModel = JSON.parse(loader.data);
+//                
+//                
+////                alert(JSON.stringify(vCM));//
+//                //获取achievement.json,achievementReward.json,task.json,taskQuestion.json,taskReward.json
+////                var aRM :AchievementRewardModel = JSON
+//                
+//                
+//                _this.getIndexedDBVersionInfo();
+//            }, this);
+//            loader.load(request);
+        }
+
+        //获取本地版本号.(空就下载，非空)
+        private getIndexedDBVersionInfo() {
+            alert(3);
+        }
+
+        //比较版本号(等于，大于，和没有)
+
+
+        //获取数据源.
+        private getStaticData() {
+
+        }
+    }
+    //打开数据库.
+
+    //创建表
+
+    //存入数据.
+
+
+    //connect and create indexeddb.
+//        public connectDataBase() {
+//            var dbName = "MFYDB";
+//            var dbVersion = 1;
+//            var idb;
+//            var dbConnect = indexedDB.open(dbName,dbVersion);
+//            dbConnect.onsuccess = function(e) {
+//                alert("数据库创建成功.");
+//            }
+//            dbConnect.onerror = function() {
+//                alert("数据库创建失败.");
+//            }
+//        }
+//        
+//        //connect upgrade and create indexeddb
+//        public VersionUpData() {
+//            var dbName = "";
+//            var dbVersion = 4;
+//            var idb;
+//            var dbConnect = indexedDB.open(dbName,dbVersion);
+//            dbConnect.onsuccess = function(e) {
+//                idb = dbConnect.result;
+//                alert("zhujun: indexeddb connected successed !　");
+//            }
+//            dbConnect.onerror = function() {
+//                alert("zhujun: indexeddb connected failed ! ");
+//            }
+//            dbConnect.onupgradeneeded = function(e) {
+//                idb = dbConnect.result;
+//                var tx = dbConnect.transaction;
+//                var oldVersion = e.oldVersion;
+//                var newVersion = e.newVersion;
+//                alert("zhujun: indexeddb upgrade successed !" + " old " + oldVersion + " new " + newVersion);
+//            }
+//        }
+//        
+//        //create object store
+//        public CreateObjectStore() {
+//            var dbName = "MFYDB";
+//            var dbVersion = 5;
+//            var idb: IDBDatabase;
+//            var dbConnect = indexedDB.open(dbName,dbVersion);
+//            dbConnect.onsuccess = function(e) {
+//                idb = dbConnect.result;
+//                alert("zhujun: indexeddb connected successed ! ");
+//            }
+//            dbConnect.onerror = function() {
+//                alert("zhujun: indexeddb connected failed !　");
+//            }
+//            dbConnect.onupgradeneeded = function(e) {
+//                idb = dbConnect.result;
+//                var name = "user";
+//                var optionalParameters = {
+//                    keyPath: "userid",
+//                    autoIncrement: false
+//                };
+//                var store = idb.createObjectStore(name,optionalParameters);
+//                alert("zhujun: object store create successed ! ");
+//            }
+//        }
+    //----------------------------------------------------------------------------------------------------------------//
+
+
+    //        public myDB = {
+    //            name: "helloindexDB",
+    //            version:1,
+    //            db:null
+    //        }
+
+//        public versionModel;// = new VersionModel();
+
+//        public versionNum: number;
+//        public questionTable: QuestionStBase;
+//        public iDB: IDBDatabase;
+//        
+//        
+//        public openDB(name,version) { 
+//            var version = version || 1;
+//            var request = indexedDB.open(name,version);
+//            var _this = this;
+//            request.onerror = function(e) {
+//                alert("zhujun: create |" + name + "| database failed ! ");
+//            }
+//            request.onsuccess = function(e) { 
+//                alert("zhujun: create |" + name + "| database successed ! ");
+//                _this.iDB = request.result;
+//            }
+//            request.onupgradeneeded = function(e) { 
+//                _this.iDB = request.result;
+//                if(!_this.iDB.createObjectStore("taskQuestion")) { 
+//                    var store = _this.iDB.createObjectStore("students",{ keyPath: "id" });
+//                    store.createIndex("nameIndex","name",{ unique: true });
+//                    store.createIndex("ageIndex","age",{ unique: false });
+//                }
+//            }
+//            setTimeout(function() { 
+//                _this.addData(_this.iDB,"students");
+//            },2000)
+//            this.students[0].id = 11;
+//        }
+////        var config  = {
+////            appid：1·2313，
+////            
+////        }
+////        
+//        public students = [{
+//            id: 101,
+//            name:"aa",
+//            age:11
+//          },{
+//            id: 102,
+//            name:"bb",
+//            age:11
+//          },{
+//            id: 103,
+//            name:"cc",
+//            age:15
+//          },{
+//            id: 104,
+//            name:"tt",
+//            age:18
+//          },{
+//              id:105,
+//              name:"gg",
+//              age:20
+//          }
+//        ]
+//        
+//        public addData(db:IDBDatabase,storeName){
+//            var transaction = db.transaction(storeName,"readwrite");
+//            var store = transaction.objectStore(storeName);
+//            for(var i = 0;i < this.students.length;i++) { 
+//                store.add(this.students[i]);
+//            }
+//        }
+//    }
+
+
+//    public addData(string name)
+
+//    fun addData(db,storeName) { 
+//        var transaction = this.iDB.
+//    }
+
+    //数据库接口.
+//        public db: IDBDatabase;         /*          * 数据库名称。          */
+//        public dbName: string;         /*          * 数据库版本号。          */
+//        public dbVersion: number;         /*          * 题库表名。          */
+//        private taskQuestionTable: string = "taskQuestion";         /*          * 下载器。          */
+//        private dbLoader: egret.URLLoader;
+
+//             /*          * 创建数据库.          */
+//        public create(_dbName: string,_dbVersion: number): void {
+//            this.dbName = _dbName;
+//            this.dbVersion = _dbVersion;
+//        
+//            //先删除
+//            var request = indexedDB.deleteDatabase(_dbName);
+//            var _this = this;
+//            request.onsuccess = function(e) {
+//                console.log("delete onsuccess ! ");
+//                _this.realCreate();
+//            };
+//            request.onerror = function(e) {
+//                console.log("delete onerror ! ");
+//                _this.realCreate();
+//            }
+//        }
+//             /*          * 真正创建。          */
+//        public realCreate(): void {
+//            var request = indexedDB.open(this.dbName,this.dbVersion);
+//            var _this = this;
+//            request.onupgradeneeded = function(e) {
+//                console.log("zhujun: 000001");
+//                _this.db = request.result;
+//                //初始化创建数据库
+//                if(!_this.db.objectStoreNames.contains(_this.taskQuestionTable)) { 
+//                    //初始化问题表.
+//                    var store = _this.db.createObjectStore(_this.taskQuestionTable,{ keyPath: "id" });
+//                    store.createIndex('idIndex','id',{ unique: true });
+//                }
+//                _this.addQuestionData();
+//                console.log(" DB version change to " + _this.dbVersion.toString());
+//            };
+//            request.onblocked = function(e) {
+//                alert("创建数据失败，请退出后重试。");
+//            }
+//            request.onerror = function(e) {
+//                alert("创建数据库失败，请退出后重试");
+//            }
+//        }
+//             /*          * 添加问题库数据。          */
+//        public addQuestionData(): void {
+//            this.dbLoader = new egret.URLLoader();
+//            var urlreq: egret.URLRequest = new egret.URLRequest();
+//            urlreq.url = "resource/assets/database/taskQuestion.json";
+//            this.dbLoader.load(urlreq);
+//            this.dbLoader.addEventListener(egret.Event.COMPLETE,this.onLoadQuestionComplete,this);
+//        }
+//
+//        private onLoadQuestionComplete(event: egret.Event): void {
+//            if(this.db) {
+//                var transaction = this.db.transaction(this.taskQuestionTable,'readwrite');
+//                var questions: Model.QuestionStBase[] = JSON.parse(this.dbLoader.data);
+//                console.log("questions length: " + questions.length.toString());
+//
+//                var store = transaction.objectStore(this.taskQuestionTable);
+//                for(var i = 0;i < questions.length;i++) {
+//                    console.log("questions id : " + questions[i].id.toString());
+//                    store.put(questions[i]);
+//                }
+//                var _this = this;
+//                transaction.oncomplete = function(e) {
+//                    console.log("transaction oncomplete 222 ");
+//                    localStorage.setItem("dbVersion",_this.dbVersion.toString());
+//                    //数据创建完毕，关闭数据库
+//                    _this.close();
+//                    //重新打开数据库并读取数据.  
+//                    _this.open(_this.dbName,_this.dbVersion);
+//                };
+//            }
+//        }
+//
+//        public open(_dbName: string,_dbVersion: number): void {
+//            this.dbName = _dbName;
+//            this.dbVersion = _dbVersion;
+//            var request = indexedDB.open(_dbName,_dbVersion);
+//            var _this = this;
+//            request.onsuccess = function(e) {
+//                console.log("onsuccess");
+//                _this.db = request.result;
+//                _this.getAllData();
+//                //获取所有数据
+//                //            _this.
+//            };
+//            request.onupgradeneeded = function(e) {
+//                console.log("onupgradeneeded");
+//                _this.db = request.result;
+//                _this.db.close();
+//                console.log('DB version changed to ' + _dbVersion.toString());
+//                alert("数据库版本不对，请退出后重试");
+//            };
+//            request.onblocked = function(e) {
+//                console.log("onbocked");
+//                alert("打开数据库失败，请退出后重试");
+//            };
+//            request.onerror = function(e) {
+//                console.log("onerror");
+//                alert("打开数据失败，请退出后重试");
+//            };
+//        }
+//
+//        public close(): void {
+//            if(this.db) {
+//                this.db.close();
+//            }
+//        }
+//
+//        public delete(): void {
+//            if(this.dbName) {
+//                indexedDB.deleteDatabase(this.dbName);
+//            }
+//        }
+//
+//        private questions: QuestionStBase[] = Array(0);
+//        
+//        public getAllData() {
+//            if(this.db) {
+//                var transaction = this.db.transaction(this.taskQuestionTable,'readwrite');
+//                var store = transaction.objectStore(this.taskQuestionTable);
+//                var request = store.openCursor();
+//                var _this = this;
+//                request.onsuccess = function(e) {
+//                    var cursor = request.result;
+//                    if(cursor) {
+//                        var question: Model.QuestionStBase = new Model.QuestionStBase(cursor.value);
+//                        _this.questions.push(question);
+//                    }
+//                }
+//            } else { 
+////                _this.
+////                _this.
+//            }
+//        }
+//    }
+
+//    var h5appdb = {};
+//    var indexdbb = Window.in?
+
+//    private createGameScene():void {
+//        
+//        var list =  [1,2,3,4];
+//        
+//        for(var i = 0; i < list.length; i++) {
+//            
+//            var shp: egret.Shape = new egret.Shape();
+//            shp.graphics.beginFill( 0xff0000, 1);
+//            shp.graphics.drawRect( 0, 0, 50, 50 );
+//            shp.graphics.endFill();
+//            shp.x = (i * 100);
+//                this.addChild( shp );
+//                shp.touchEnabled = true;
+//                this.bind(shp,i);
+//                
+//                }
+//                
+//                }
+//                
+//                private bind(shp:egret.Shape, i:number): void { 
+//                    shp.addEventListener(egret.TouchEvent.TOUCH_TAP,function(event) { 
+//                        console.log("haha: " + i);
+//                    },shp);
+//                }
+                
+}

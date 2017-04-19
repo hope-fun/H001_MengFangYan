@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin width="640" height="1136" xmlns:e="http://ns.egret-labs.org/egret" xmlns:w="http://ns.egret-labs.org/wing">
+	<w:HostComponent name="egret.gui.SkinnableComponent"/>
+	<w:Declarations/>
+	<e:states>
+		<e:State name="normal"/>
+		<e:State name="disabled"/>
+	</e:states>
+	<e:UIAsset id="bg" source="bg_01_png" x="0" y="0"/>
+	<e:UIAsset id="player_02" source="0010_player_02" x="164" y="290"/>
+	<e:Button id="btnTip" skinName="@ButtonSkin('0008_btn_off_02','0008_btn_on_02')" horizontalCenter="-236" verticalCenter="-273"/>
+	<e:Button id="back" x="10" y="10" horizontalCenter="-259" verticalCenter="-504.5" skinName="@ButtonSkin('back','back_')"/>
+	<e:Button id="btnRidMistake" horizontalCenter="-235" verticalCenter="-90.5" skinName="@ButtonSkin('0012_btn_off_03','0012_btn_on_03')"/>
+	<e:Button id="btnRightAnswer" skinName="@ButtonSkin('0009_btn_off_04','0009_btn_on_04')" horizontalCenter="-232" verticalCenter="81"/>
+	<e:Button id="btnListenAgain" skinName="@ButtonSkin('0011_btn_off_05','0011_btn_on_05')" horizontalCenter="235.5" verticalCenter="-210.5"/>
+	<e:Button id="btnShare" skinName="@ButtonSkin('0013_btn_off_06','0013_btn_on_06')" horizontalCenter="235" verticalCenter="-43"/>
+	<e:UIAsset source="bg00000" width="640" scale9Grid="2,84,12,220" horizontalCenter="0" verticalCenter="394.5"/>
+	<e:UIAsset source="1_0000_bj_04" width="222" height="38" scale9Grid="10,9,61,60" horizontalCenter="-93" verticalCenter="-522"/>
+	<e:Label id="levelName" text="教学篇 01/01" fontFamily="黑体" horizontalCenter="-94" verticalCenter="-522"/>
+	<e:Group id="wordBtnGroup" height="276" width="639" verticalCenter="430" horizontalCenter="-0.5">
+		<e:layout>
+			<e:TileLayout orientation="rows" horizontalGap="3" horizontalAlign="center" verticalAlign="middle" verticalGap="10" paddingTop="15"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="wordSlotGroup" width="640" height="80" horizontalCenter="0" verticalCenter="172">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="questionLabel" horizontalCenter="0" y="817"/>
+	<e:Group id="moneyGroup" height="38" width="233" horizontalCenter="168.5" verticalCenter="-522">
+		<e:UIAsset source="1_0000_bj_04" scale9Grid="10,9,61,60" width="233" height="38" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="moneyLabel" fontFamily="黑体" verticalCenter="0" horizontalCenter="-2" text="0"/>
+		<e:UIAsset source="0003_icon_02" verticalCenter="0.5" x="-16"/>
+		<e:UIAsset id="btnMall" right="-24" verticalCenter="0" source="0004_btn_off_08"/>
+	</e:Group>
+</e:Skin>
